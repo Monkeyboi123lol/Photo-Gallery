@@ -82,3 +82,44 @@
   margin-bottom: 20px;
   margin-top: 10%;
 }
+
+.flower-card:hover {
+  transform: scale(1.2);
+  transition: 1s;
+  opacity: 0.8;
+}
+
+.Grid-Gallery3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: auto;
+  gap: 10px;
+}
+
+.cartoon-gallery img {
+  width: 200px;
+  height: 200px;
+}
+
+.cartoon-gallery {
+  width: 80%;
+  margin: auto;
+}
+
+.cartoon-gallery img:hover {
+  transform: scale(1.3);
+  transition: 1s;
+  opacity: 1;
+}
+
+.cartoon-gallery img {
+  opacity: 0.8;
+}
+
+.cartoon-gallery h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 20%;
+}
