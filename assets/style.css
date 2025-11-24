@@ -123,3 +123,40 @@
   margin-bottom: 20px;
   margin-top: 20%;
 }
+
+.Space-Gallery {
+  width: 80%;
+  margin: auto;
+}
+
+.Space-Gallery-images {
+  width: 80%;
+  height: 180px;
+  border: 1px solid black;
+  /* scroll horizontal */
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.Space-Gallery-images img {
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 0px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.Space-Gallery h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 20%;
+}
+
+.Space-Gallery-images {
+  display: flex;
+  align-items: center;
+}
